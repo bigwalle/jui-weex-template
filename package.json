@@ -1,7 +1,7 @@
 {
   "name": "jui-weex-template",
   "description": "jui-weex template project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "",
   "keywords": [
     "weex",
@@ -10,12 +10,12 @@
   "author": "welcome112s",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bingo-oss/bui-weex-template.git"
+    "url": "https://github.com/welcome112s/jui-weex-template.git"
   },
   "bugs": {
-    "url": "https://github.com/bingo-oss/bui-weex-template/issues"
+    "url": "https://github.com/welcome112s/jui-weex-template/issues"
   },
-  "homepage": "https://github.com/bingo-oss/bui-weex-template",
+  "homepage": "https://github.com/welcome112s/jui-weex-template",
   "scripts": {
     "start": "npm run serve & npm run dev",
     "dev": "webpack --watch",
