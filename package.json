@@ -1,0 +1,53 @@
+{
+  "name": "jui-weex-template",
+  "description": "jui-weex template project",
+  "version": "1.0.0",
+  "main": "",
+  "keywords": [
+    "weex",
+    "vue"
+  ],
+  "author": "welcome112s",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bingo-oss/bui-weex-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bingo-oss/bui-weex-template/issues"
+  },
+  "homepage": "https://github.com/bingo-oss/bui-weex-template",
+  "scripts": {
+    "start": "npm run serve & npm run dev",
+    "dev": "webpack --watch",
+    "serve": "node build/init.js && serve -p 8686",
+    "debug": "weex debug",
+    "publish": "node build/publish.js"
+  },
+  "dependencies": {
+    "archiver": "^2.1.0",
+    "glob": "^7.1.2",
+    "punycode": "^2.1.0",
+    "vue": "^2.5.13",
+    "vue-router": "^2.1.1",
+    "vue-template-compiler": "^2.5.13",
+    "vuex": "^2.1.1",
+    "vuex-router-sync": "^4.0.1",
+    "weex-vue-render": "^0.11.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "ip": "^1.1.4",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "serve": "^1.4.0",
+    "vue-loader": "^10.0.2",
+    "webpack": "^1.14.0",
+    "weex-loader": "^0.4.1",
+    "weex-vue-loader": "^0.2.5"
+  }
+}
